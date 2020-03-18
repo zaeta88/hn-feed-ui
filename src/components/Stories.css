@@ -1,0 +1,130 @@
+h1 {
+  font-size: 5rem;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.right-button {
+  margin-right: 15px;
+  padding: 5px 10px;
+}
+
+.title-bar {
+  background-color: gray;
+  color: white;
+  padding: 8px;
+  border-radius: 0 0 3px 3px;
+  height: 180px;
+}
+
+.react-confirm-alert-body {
+  font-family: "Inconsolata", monosapce;
+  color: #000;
+}
+
+.actions .member-link {
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 0 5px 0;
+  margin: 0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.actions .member-link.disabled, .actions .member-link:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}
+.actions .member-link:hover {
+  background-color: #e1fce5;
+}
+
+.actions .member-link:disabled {
+  background-color: gray;
+}
+
+.actions .member-link img {
+  height: 22px;
+}
+
+.btn-secondary.dropdown-toggle, .react-confirm-alert-body > .react-confirm-alert-button-group button {
+  color: #28a745;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #28a745;
+  margin-right: 10px;
+}
+
+.btn-secondary:hover.dropdown-toggle, .btn-secondary:active.dropdown-toggle, .react-confirm-alert-body > .react-confirm-alert-button-group button:hover, .react-confirm-alert-body > .react-confirm-alert-button-group button:active {
+  color: #fff;
+  background-color: #28a745;
+}
+
+
+.pagination, .right-button, .actions, .carret {
+  float: right;
+}
+
+.page-item.active .page-link {
+  background-color: #5bc66a;
+  border-color: #5bc66a;
+}
+
+.page-link {
+  color: #5bc66a;
+}
+
+.search-label, .item {
+  margin-top: 5px;
+  width: 100%;
+}
+
+
+.table-bordered tbody tr:first-child td {
+    padding-top: .7rem;
+}
+
+.table-bordered {
+  border: none;
+}
+
+.table-bordered td, .table-bordered th {
+  border: none;
+  padding: .35rem .3rem .3rem .75rem;
+  border-bottom: 1px solid #ccc;
+}
+
+td a.MuiLink-underlineHover {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+}
+
+td a.MuiLink-underlineHover:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.author {
+  color: #999;
+}
+
+.table-bordered thead th {
+  border-bottom: 2px solid #5bc66a;
+}
+
+.actions button.delete-btn {
+  margin-right: 12px;
+}
+
+.content-wrapper {
+  padding: 10px 24px;
+}
+
+.item img {
+  height: 18px;
+}

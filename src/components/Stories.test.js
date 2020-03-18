@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+import Stories from './Stories';
 
 
-describe('React.Component App', () => {
+describe('React.Component Stories', () => {
   it('should render correctly', () => {
-    const component = shallow(<App />);
+    const component = shallow(<Stories />);
     expect(component).toMatchSnapshot();
   });
 });
