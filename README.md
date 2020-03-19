@@ -1,3 +1,7 @@
+This API is to get the hacker news from:
+[http://hn.algolia.com/api/v1/search_by_date?query=nodejs](http://hn.algolia.com/api/v1/search_by_date?query=nodejs)
+All the news are getted when the api is first accessed from the /stories endpoint, this stories are saved into the mongo local database and then retreived to the user and formated with the information the web app needs, is also used to deleted by making a delete request to the /stories/:storyId endpoint and removes the story by the parametered id
+
 ## Available Scripts
 
 In the project directory, you can run:
